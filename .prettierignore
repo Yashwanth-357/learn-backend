@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+
+# Build and output directories
+dist/
+build/
+out/
+.next/
+
+# Lockfiles (never format these, it can break them)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environmental variables
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
